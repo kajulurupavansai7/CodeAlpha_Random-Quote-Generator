@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>✨ Random Quote Generator</h1>
+
+        <button id="darkModeBtn" class="dark-btn">
+            🌙 Dark Mode
+        </button>
+    </header>
+
+    <div class="quote-card">
+
+        <div class="quote-icon">❝</div>
+
+        <p id="quoteText" class="quote-text">
+            Click the button to generate a quote.
+        </p>
+
+        <h3 id="quoteAuthor" class="quote-author">
+            - Unknown
+        </h3>
+
+    </div>
+
+    <div class="counter-section">
+
+        <p>
+            Quotes Viewed:
+            <span id="quoteCounter">0</span>
+        </p>
+
+    </div>
+
+    <div class="button-group">
+
+        <button id="newQuoteBtn" class="primary-btn">
+            🎲 New Quote
+        </button>
+
+        <button id="copyBtn" class="secondary-btn">
+            📋 Copy
+        </button>
+
+        <button id="shareBtn" class="secondary-btn">
+            📤 Share
+        </button>
+
+    </div>
+
+</div>
+
+<script src="quotes.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
